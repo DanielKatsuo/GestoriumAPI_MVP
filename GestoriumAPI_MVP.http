@@ -1,0 +1,6 @@
+@GestoriumAPI_MVP_HostAddress = http://localhost:5017
+
+GET {{GestoriumAPI_MVP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
