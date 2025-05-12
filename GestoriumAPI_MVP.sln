@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestoriumAPI", "GestoriumAPI.csproj", "{C0E0A7EE-0115-4D3E-B33B-E58F30633A43}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestoriumAPI_Application", "GestoriumAPI_Services\GestoriumAPI_Application.csproj", "{97B7189F-E79A-42B4-8D74-D2317D680AAE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestoriumAPI_Domain", "GestoriumAPI_Domain\GestoriumAPI_Domain.csproj", "{C8ADC360-F43F-4E40-ACE4-20239242E20C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestoriumAPI_Infrastructure", "GestoriumAPI_Infrastructure\GestoriumAPI_Infrastructure.csproj", "{507959B6-CA64-4E6D-9829-734620FB50C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestoriumAPI", "GestoriumAPI_MVP\GestoriumAPI.csproj", "{4490CCC1-0B52-42CA-9E53-1727215B900A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C0E0A7EE-0115-4D3E-B33B-E58F30633A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0E0A7EE-0115-4D3E-B33B-E58F30633A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0E0A7EE-0115-4D3E-B33B-E58F30633A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0E0A7EE-0115-4D3E-B33B-E58F30633A43}.Release|Any CPU.Build.0 = Release|Any CPU
 		{97B7189F-E79A-42B4-8D74-D2317D680AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{97B7189F-E79A-42B4-8D74-D2317D680AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97B7189F-E79A-42B4-8D74-D2317D680AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{507959B6-CA64-4E6D-9829-734620FB50C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{507959B6-CA64-4E6D-9829-734620FB50C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{507959B6-CA64-4E6D-9829-734620FB50C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4490CCC1-0B52-42CA-9E53-1727215B900A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4490CCC1-0B52-42CA-9E53-1727215B900A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4490CCC1-0B52-42CA-9E53-1727215B900A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4490CCC1-0B52-42CA-9E53-1727215B900A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
