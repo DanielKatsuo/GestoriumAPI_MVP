@@ -10,6 +10,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="GestoriumAPI_Domain\**" />
+    <Compile Remove="GestoriumAPI_Infrastructure\**" />
+    <Compile Remove="GestoriumAPI_Services\**" />
+    <Content Remove="GestoriumAPI_Domain\**" />
+    <Content Remove="GestoriumAPI_Infrastructure\**" />
+    <Content Remove="GestoriumAPI_Services\**" />
+    <EmbeddedResource Remove="GestoriumAPI_Domain\**" />
+    <EmbeddedResource Remove="GestoriumAPI_Infrastructure\**" />
+    <EmbeddedResource Remove="GestoriumAPI_Services\**" />
+    <None Remove="GestoriumAPI_Domain\**" />
+    <None Remove="GestoriumAPI_Infrastructure\**" />
+    <None Remove="GestoriumAPI_Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
@@ -20,7 +35,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GestoriumAPI_Services\GestoriumAPI_Application.csproj" />
   </ItemGroup>
 
 </Project>

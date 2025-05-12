@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GestoriumAPI_Domain\GestoriumAPI_Domain.csproj" />
   </ItemGroup>
 
 </Project>
